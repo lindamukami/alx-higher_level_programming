@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    matrixlist = []
+    matrixlistt = []
 
     for x in matrix:
-        matrixlist.append([y**2 for y in x])
-    return matrixlist
+        matrixlistt.append([y**2 for y in x])
+    return matrixlistt
